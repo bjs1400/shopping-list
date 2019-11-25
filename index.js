@@ -18,7 +18,7 @@ $(function () {
 
     let shoppingList = $('.shopping-list');
 
-    // this aint working :( 
+
     shoppingList.on('click', '.shopping-item-toggle', function () {
         $(this).closest('li').find('.shopping-item').toggleClass('shopping-item__checked');
     });
